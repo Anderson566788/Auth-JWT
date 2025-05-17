@@ -97,15 +97,16 @@ Resposta:
 ## 🧪 Testando com Postman
 
 1. Registro:
-
+```
 Método: POST
 
 URL: http://localhost:3000/auth/register
 
 Body (JSON): username, password
+```
 
 2. Login:
-
+```
 Método: POST
 
 URL: http://localhost:3000/auth/login
@@ -113,10 +114,11 @@ URL: http://localhost:3000/auth/login
 Body (JSON): username, password
 
 Copie o token da resposta.
+```
 
 3. Acesso protegido:
 Método: GET
-
+```
 URL: http://localhost:3000/auth/secret
 
 Headers:
@@ -124,6 +126,7 @@ Headers:
 Key: Authorization
 
 Value: Bearer SEU_TOKEN
+```
 
 ---
 Desenvolvido por Anderson Freire. 🚀
